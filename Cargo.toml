@@ -1,0 +1,15 @@
+[package]
+name = "zeabur_axum_crash_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+askama = "0.12.1"
+axum = "0.7.5"
+better-panic = "0.3.0"
+serde = {version="1.0.203", features=["derive"]}
+tokio = {version="1.38.0", features=["macros", 'rt-multi-thread']}
+tracing = "0.1.40"
+tracing-layer-axiom = "0.1.1"
+tracing-subscriber = "0.3.18"
+url = "2.5.2"
